@@ -1,0 +1,147 @@
+html {
+  background-color: #384047;
+}
+
+.main {
+  margin-left: 730px;
+  margin-top: 100px;
+}
+
+.buttons {
+  margin-bottom: -12px;
+}
+
+.login {
+  width: 200px;
+  height: 50px;
+  background-image: linear-gradient(to top, white 90%, #2F558E 10%);
+  margin-right: 0px;
+  float: left;
+  border: 0;
+}
+
+.sign {
+  width: 200px;
+  height: 50px;
+  background-color: grey;
+  margin-left: 0px;
+  border: 0;
+}
+
+.loginTab {
+  background-color: #1C2024;
+  width: 400px;
+  height: 350px;
+}
+
+.signTab {
+  display: none;
+  background-color: #1C2024;
+  width: 400px;
+  height: 600px;
+}
+
+.upTab {
+  display: none;
+  background-color: #1C2024;
+  width: 400px;
+  height: 50px;
+}
+
+.finalTab {
+  display: none;
+  background-color: #1C2024;
+  width: 400px;
+  height: 50px;
+  color: white;
+}
+
+.content {
+  margin-left: 10px;
+}
+
+h1 {
+  color: white;
+  font-size: 20px;
+}
+
+h2 {
+  color: white;
+  font-size: 15px;
+}
+
+[type="text"] {
+  width: 350px;
+  background-color: #1C2024;
+  color: white;
+  border: 1px solid white;
+  border-color: white;
+  height: 20px;
+}
+
+[type="password"] {
+  width: 350px;
+  background-color: #1C2024;
+  color: white;
+  border: 1px solid white;
+  height: 20px;
+}
+
+.loginBtn {
+  margin-top: 25px;
+  width: 350px;
+  background-color: #2F558E;
+  border: 0;
+  color: white;
+  height: 30px;
+}
+
+.signBtn {
+  margin-top: 25px;
+  width: 350px;
+  background-color: #2F558E;
+  border: 0;
+  color: white;
+  height: 30px;
+}
+
+form {
+  text-align: left;
+  vertical-align: middle;
+  margin-top: 10px;
+  color: white;
+}
+
+h3 {
+  background-color: #2F558E;
+  color: white;
+  font-size: 3px;
+  width: 150px;
+  border-radius: 2px;
+  text-align: center;
+  margin-left: 370px;
+  margin-top: -20px;
+  display: none;
+}
+
+.eGender {
+  margin-top: -5px;
+}
+
+img {
+  width: 1em;
+  height: 1em;
+  margin-left: 300px;
+  margin-top: -15px;
+  display: none;
+}
+
+@keyframes wording {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

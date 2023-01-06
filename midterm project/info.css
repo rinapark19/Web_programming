@@ -1,0 +1,49 @@
+html {
+  background-color: #E4FCFF;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #078C8E;
+}
+
+h2 {
+  text-align: center;
+
+}
+
+table {
+  border: 1px solid black;
+  width: 100%;
+}
+
+th {
+  background-color: white
+}
+
+.odd
+{
+  background-color: white;
+}
+
+.even {
+  background-color:lightgrey;
+}
+
+.return {
+  width: 100px;
+  height: 60px;
+  font-size: 20px;
+  color: white;
+  background-color: #F55B37;
+  margin-left: 1800px;
+  margin-top: 20px;
+  border: solid 2px #F55B37;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px 1px #dadce0
+}
+
+.return:hover {
+  background-color: black;
+}

@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+html {
+  background-color: #FFF6BF;
+  font-family: 'Gowun Dodum', sans-serif;
+}
+
+.header {
+  background-color: #FFEBAD;
+}
+
+.home {
+  background-image: url("img/home.png");
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  border: none;
+  background-color: #FFEBAD;
+}
+
+.menu {
+  background-image: url("img/menu.png");
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  border: none;
+  background-color: #FFEBAD;
+  margin-left: 10px;
+}
+
+.music {
+  background-image: url("img/music.png");
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  border: none;
+  background-color: #FFEBAD;
+}
+
+.getLink {
+  display: none;
+  background-color: #ABD9FF;
+  width: 350px;
+  height: 70px;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+  z-index: 100;
+}
+
+.getLink input {
+  width: 200px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border: 1px dashed #FFCB42;
+  border-radius: 15px;
+  padding-left: 10px;
+}
+
+.getLink .okBtn {
+  background-color: #81C6E8;
+  margin-top: 20px;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+}
+
+.tab {
+  float: right;
+}
+
+.tab1 {
+  height: 32px;
+  margin-top: 10px;
+  border: 2px solid #E5CB9F;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: none;
+  background-color: white;
+  font-size: 18px;
+  font-family: 'Gowun Dodum', sans-serif;
+}
+
+.memo {
+  width: 400px;
+  height: 400px;
+  background-color: #ABD9FF;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.inputContainer {
+  margin-left: 10px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+input {
+  width: 250px;
+  height: 20px;
+  border-radius: 10px;
+  border: 1px dashed black;
+}
+
+.inputConainer button {
+  width: 80px;
+  height: 25px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #C3F8FF;
+}
+
+.container {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.memoContainer {
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+iframe {
+  width: 300px;
+  height: 100px;
+}

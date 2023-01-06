@@ -1,0 +1,191 @@
+html {
+  background-color: #E4FCFF;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 35px;
+  text-align: center;
+}
+
+h3 {
+  color: #078C8E;
+  font-size: 60px;
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+  margin-top:-30px;
+  font-size: 40px;
+  color:
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  column-gap: 50px;
+  width: 100%;
+}
+
+.cards1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  row-gap: 50px;
+  margin-left: 160px;
+}
+
+.cards2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  margin-left: 430px;
+}
+
+.cards3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  row-gap: 50px;
+  margin-left: 160px;
+}
+
+.btn {
+  width: 100px;
+  height: 60px;
+  background-color: #253A50;
+  color: white;
+  font-size: 25px;
+  border: 2px solid black;
+  border-radius: 7px;
+}
+
+.btn:hover{
+  background-color: lightgrey;
+  color:black;
+}
+
+input {
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.up100{
+  background-image: url(./assets/uparrow100copy.png);
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+.up100:hover {
+  background-image: url(./assets/uparrow100copyhover.png);
+}
+
+.up20 {
+  background-image: url(./assets/uparrow20copy.png);
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+.up20:hover {
+  background-image: url(./assets/uparrow20copyhover.png);
+}
+
+.down20 {
+  background-image: url(./assets/downarrow20copy.png);
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+.down20:hover {
+  background-image: url(./assets/downarrow20copyhover.png);
+}
+
+.down100 {
+  background-image: url(./assets/downarrow100copy.png);
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+.down100:hover {
+  background-image: url(./assets/downarrow100copyhover.png);
+}
+
+.enterBtn {
+  height: 50px;
+  width: 100px;
+  background-color: #02AC9D;
+  margin-top: 200px;
+  margin-right: -200px;
+  border: 2px solid green;
+  border-radius: 7px;
+  font-size: 20px;
+  color:white;
+}
+
+.backBtn {
+  width: 100px;
+  height: 60px;
+  background-color: #F55B37;
+  font-size: 25px;
+  color: white;
+  border: 2px solid #F55B37;
+  border-radius: 7px;
+}
+
+.container1 {
+  display: grid;
+  grid-template-columns : 1fr 1fr;
+  grid-template-rows: 1fr;
+  row-gap: 10px;
+  column-gap: 10px;
+  width: 200px;
+  margin-left: 800px;
+}
+
+.yes {
+  width: 150px;
+  height: 60px;
+  font-size: 20px;
+  color: white;
+  background-color: #02AC9D;
+  border: 2px solid #02AC9D;
+  border-radius: 5px;
+}
+
+.yes:hover {
+  background-color: #006D00;
+}
+
+.no {
+  width: 150px;
+  height: 60px;
+  font-size: 20px;
+  color: white;
+  background-color: #F55B37;
+  border: 2px solid #F55B37;
+  border-radius: 5px;
+}
+
+.no:hover {
+  background-color:#4F0100;
+}

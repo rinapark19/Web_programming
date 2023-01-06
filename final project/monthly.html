@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>DIARY</title>
+    <link rel="stylesheet" href="./monthly.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <button class="home"id="home" onclick="location.href = 'index.jsp'"></button>
+      <button class="menu" id="menu" onclick="location.href = 'index1.html'"></button>
+      <button class="music" id="music"></button>
+      <a href="change.html">Change Password</a>
+      <div class="tab">
+        <button class="tab1" id="todo" onclick="location.href = 'todo.html'">TO DO LIST</button>
+        <button class="tab1">MONTHLY</button>
+        <button class="tab1" id="weekly1" onclick="location.href = 'weekly1.html'">1st WEEK</button>
+        <button class="tab1" id="weekly2" onclick="location.href = 'weekly2.html'">2nd WEEK</button>
+        <button class="tab1" id="weekly3" onclick="location.href = 'weekly3.html'">3rd WEEK</button>
+        <button class="tab1" id="weekly4" onclick="location.href = 'weekly4.html'">4th WEEK</button>
+        <button class="tab1" id="weekly5" onclick="location.href = 'weekly5.html'">5th WEEK</button>
+        <button class="tab1" id="daily" onclick="location.href = 'daily.html'">DAILY</button>
+        <button class="tab1" id="memo" onclick="location.href = 'memo.html'">MEMO</button>
+        <button class="tab1" id="routine" onclick="location.href = 'routine.jsp'">ROUTINE</button>
+      </div>
+    </div><br>
+    <div class="getLink" id="getLink">
+      <input type="text" name="link" id="link" placeholder="Enter your youtube html link">
+      <button class="okBtn" id="okBtn1">OK</button>
+    </div>
+    <div id="newArea"></div>
+    <div class="setting" id="setting">
+      <h1>Add Schedule</h1>
+      <div class="container">
+        <h2>Date: </h2>
+        <input type="text" name="date" id="date" placeholder="ex: 13">
+      </div>
+      <div class="container">
+        <h2>Content: </h2>
+        <input type="text" name="content" id="content" placeholder="ex: Meeting">
+      </div>
+      <button class="okBtn" id="okBtn">Ok</button>
+    </div>
+    <div class="calendar" id="calendar">
+      <div class="boxt">SUN</div>
+      <div class="boxt">MON</div>
+      <div class="boxt">TUE</div>
+      <div class="boxt">WED</div>
+      <div class="boxt">THU</div>
+      <div class="boxt">FRI</div>
+      <div class="boxt">SAT</div>
+      <div class="box">1<h1 id="h1"></h1></div>
+      <div class="box">2<h1 id="h2"></h1></div>
+      <div class="box">3<h1 id="h3"></h1></div>
+      <div class="box">4<h1 id="h4"></h1></div>
+      <div class="box">5<h1 id="h5"></h1></div>
+      <div class="box">6<h1 id="h6"></h1></div>
+      <div class="box">7<h1 id="h7"></h1></div>
+      <div class="box">8<h1 id="h8"></h1></div>
+      <div class="box">9<h1 id="h9"></h1></div>
+      <div class="box">10<h1 id="h10"></h1></div>
+      <div class="box">11<h1 id="h11"></h1></div>
+      <div class="box">12<h1 id="h12"></h1></div>
+      <div class="box">13<h1 id="h13"></h1></div>
+      <div class="box">14<h1 id="h14"></h1></div>
+      <div class="box">15<h1 id="h15"></h1></div>
+      <div class="box">16<h1 id="h16"></h1></div>
+      <div class="box">17<h1 id="h17"></h1></div>
+      <div class="box">18<h1 id="h18"></h1></div>
+      <div class="box">19<h1 id="h19"></h1></div>
+      <div class="box">20<h1 id="h20"></h1></div>
+      <div class="box">21<h1 id="h21"></h1></div>
+      <div class="box">22<h1 id="h22"></h1></div>
+      <div class="box">23<h1 id="h23"></h1></div>
+      <div class="box">24<h1 id="h24"></h1></div>
+      <div class="box">25<h1 id="h25"></h1></div>
+      <div class="box">26<h1 id="h26"></h1></div>
+      <div class="box">27<h1 id="h27"></h1></div>
+      <div class="box">28<h1 id="h28"></h1></div>
+      <div class="box">29<h1 id="h29"></h1></div>
+      <div class="box">30<h1 id="h30"></h1></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+  </body>
+  <script src="monthly.js" charset="utf-8"></script>
+</html>

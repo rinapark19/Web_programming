@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIARY</title>
+    <link rel="stylesheet" href="daily.css">
+  </head>
+  <body>
+    <div class="header">
+      <button class="home"id="home" onclick="location.href = 'index.jsp'"></button>
+      <button class="menu" id="menu" onclick="location.href = 'index1.html'"></button>
+      <button class="music" id="music"></button>
+      <div class="tab">
+        <button class="tab1" id="todo" onclick="location.href = 'todo.html'">TO DO LIST</button>
+        <button class="tab1" id="monthly" onclick="location.href = 'monthly.html'">MONTHLY</button>
+        <button class="tab1" id="weekly1" onclick="location.href = 'weekly1.html'">1st WEEK</button>
+        <button class="tab1" id="weekly2" onclick="location.href = 'weekly2.html'">2nd WEEK</button>
+        <button class="tab1" id="weekly3" onclick="location.href = 'weekly3.html'">3rd WEEK</button>
+        <button class="tab1" id="weekly4" onclick="location.href = 'weekly4.html'">4th WEEK</button>
+        <button class="tab1" id="weekly5" onclick="location.href = 'weekly5.html'">5th WEEK</button>
+        <button class="tab1" id="daily">DAILY</button>
+        <button class="tab1" id="memo" onclick="location.href = 'memo.html'">MEMO</button>
+        <button class="tab1" id="routine" onclick="location.href = 'routine.jsp'">ROUTINE</button>
+      </div>
+    </div><br>
+    <div class="getLink" id="getLink">
+      <input type="text" name="link" id="link" placeholder="Enter your youtube html link">
+      <button class="okBtn" id="okBtn1">OK</button>
+    </div>
+    <div id="newArea"></div>
+    <div class="container" id="container">
+      <div class="canvasContianer">
+        <canvas id="canvas" class="canvas"></canvas>
+        <button class="erase" id="erase">CLEAR</button>
+      </div>
+      <div class="dairyContainer">
+        <div class="inputContainer" id="inputContainer">
+          <input type="text" name="content" id="content">
+          <button class="okBtn" id="okBtn">OK</button>
+        </div>
+        <div class="daily">
+          <h1>---------DIARY---------</h1>
+          <h2 id="diary"></h2>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="daily.js" charset="utf-8"></script>
+</html>

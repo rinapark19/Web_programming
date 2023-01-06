@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>DIARY</title>
+  </head>
+  <link rel="stylesheet" href="memo.css">
+  <body>
+    <div class="header">
+      <button class="home"id="home" onclick="location.href = 'index.jsp'"></button>
+      <button class="menu" id="menu" onclick="location.href = 'index1.html'"></button>
+      <button class="music" id="music"></button>
+      <div class="tab">
+        <button class="tab1" id="todo" onclick="location.href = 'todo.html'">TO DO LIST</button>
+        <button class="tab1" id="monthly" onclick="location.href = 'monthly.html'">MONTHLY</button>
+        <button class="tab1" id="week1" onclick="location.href = 'weekly1.html'">1st WEEK</button>
+        <button class="tab1" id="week2" onclick="location.href = 'weekly2.html'">2nd WEEK</button>
+        <button class="tab1" id="week3" onclick="location.href = 'weekly3.html'">3rd WEEK</button>
+        <button class="tab1" id="week4" onclick="location.href = 'weekly4.html'">4th WEEK</button>
+        <button class="tab1" id="week5" onclick="location.href = 'weekly5.html'">5th WEEK</button>
+        <button class="tab1" id="daily" onclick="location.href = 'daily.html'">DAILY</button>
+        <button class="tab1">MEMO</button>
+        <button class="tab1" onclick="location.href='routine.jsp'">ROUTINE</button>
+      </div>
+    </div><br>
+    <div class="getLink" id="getLink">
+      <input type="text" name="link" id="link" placeholder="Enter your youtube html link">
+      <button class="okBtn" id="okBtnn">OK</button>
+    </div>
+    <div id="newArea"></div>
+    <div class="container" id="container">
+      <div class="memoContainer">
+        <div class="memo">
+          <h1 id="h1">MEMO 1</h1>
+        </div>
+        <div class="inputContainer">
+          <input type="text" name="memo" id="input1">
+          <button class="okBtn" id="okBtn1">OK</button>
+        </div>
+      </div>
+      <div class="memoContainer">
+        <div class="memo">
+          <h1 id="h2">MEMO 2</h1>
+        </div>
+        <div class="inputContainer">
+          <input type="text" name="memo" id="input2">
+          <button class="okBtn" id="okBtn2">OK</button>
+        </div>
+      </div>
+      <div class="memoContainer">
+        <div class="memo">
+          <h1 id="h3">MEMO 3</h1>
+        </div>
+        <div class="inputContainer">
+          <input type="text" name="memo" id="input3">
+          <button class="okBtn" id="okBtn3">OK</button>
+        </div>
+      </div>
+      <div class="memoContainer">
+        <div class="memo">
+          <h1 id="h4">MEMO 4</h1>
+        </div>
+        <div class="inputContainer">
+          <input type="text" name="memo" id="input4">
+          <button class="okBtn" id="okBtn4">OK</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="memo.js" charset="utf-8"></script>
+</html>

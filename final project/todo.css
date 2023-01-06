@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+html {
+  background-color: #FFF6BF;
+  font-family: 'Gowun Dodum', sans-serif;
+}
+
+.header {
+  background-color: #FFEBAD;
+}
+
+.home {
+  background-image: url("img/home.png");
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  border: none;
+  background-color: #FFEBAD;
+}
+
+.menu {
+  background-image: url("img/menu.png");
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  border: none;
+  background-color: #FFEBAD;
+  margin-left: 10px;
+}
+
+.tab {
+  float: right;
+}
+
+.tab1 {
+  height: 32px;
+  margin-top: 10px;
+  border: 2px solid #E5CB9F;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: none;
+  background-color: white;
+  font-size: 18px;
+  font-family: 'Gowun Dodum', sans-serif;
+}
+
+.music {
+  background-image: url("img/music.png");
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  border: none;
+  background-color: #FFEBAD;
+}
+
+.getLink {
+  display: none;
+  background-color: #ABD9FF;
+  width: 350px;
+  height: 70px;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+  z-index: 100;
+}
+
+.getLink input {
+  width: 200px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border: 1px dashed #FFCB42;
+  border-radius: 15px;
+  padding-left: 10px;
+}
+
+.getLink .okBtn {
+  background-color: #81C6E8;
+  margin-top: 20px;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+}
+
+.todoContainer {
+  margin-top: 200px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.setting {
+  background-color: #FFEBAD;
+  width: 400px;
+  text-align: center;
+  height: 250px;
+  vertical-align: middle;
+  border-radius: 20px;
+  margin-left: 300px;
+  margin-top: 50px;
+}
+
+.setting h1 {
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+.container {
+  text-align: left;
+  display: flex;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+input {
+  width: 200px;
+  height: 80px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border: 1px dashed #FFCB42;
+  border-radius: 15px;
+  padding-left: 10px;
+}
+
+.okBtn {
+  margin-top: 20px;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: #ABD9FF;
+}
+
+.list {
+  background-color: #C3F8FF;
+  width: 750px;
+  text-align: center;
+  height: 680px;
+  vertical-align: middle;
+  border-radius: 20px;
+  margin-left: 1000px;
+  margin-top: -600px;
+}
+
+.list h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.list h2 {
+  text-align: left;
+  padding-left: 40px;
+}
+
+iframe {
+  width: 300px;
+  height: 100px;
+}

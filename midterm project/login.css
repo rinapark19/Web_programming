@@ -1,0 +1,137 @@
+html {
+  background-color: #E4FCFF;
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+  color: #078C8E;
+}
+
+h2 {
+  text-align: center;
+
+}
+
+.container {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  border: solid 3px #078C8E;
+  border-radius: 7px;
+  background-color: white;
+  width: 250px;
+  margin-left: 350px;
+  height: 40px;
+  line-height: 40px;
+  color: grey;
+}
+
+input {
+  text-align: center;
+  border: solid 3px #078C8E;
+  border-radius: 7px;
+  background-color: white;
+  width: 250px;
+  height: 40px;
+  line-height: 40px;
+  color: grey;
+  margin-bottom: 50px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns : 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 10px;
+  width: 200px;
+  margin-left: 835px;
+}
+
+.btn {
+  border: solid 3px #078C8E;
+  border-radius: 7px;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  line-height: 50px;
+  background-color: #F0F0F0;
+  box-shadow: 1px 1px 3px 1px #dadce0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.enterBtn {
+  color: green;
+  border: solid 3px #078C8E;
+  border-radius: 7px;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  line-height: 50px;
+  background-color: #F0F0F0;
+  box-shadow: 1px 1px 3px 1px #dadce0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.delBtn {
+  color: red;
+  border: solid 3px #078C8E;
+  border-radius: 7px;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  line-height: 50px;
+  background-color: #F0F0F0;
+  box-shadow: 1px 1px 3px 1px #dadce0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.return {
+  width: 150px;
+  height: 60px;
+  font-size: 20px;
+  color: white;
+  background-color: #F55B37;
+  margin-left: 1100px;
+  margin-top: 90px;
+  border: solid 2px #F55B37;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px 1px #dadce0
+}
+
+.return1 {
+  width: 150px;
+  height: 60px;
+  font-size: 20px;
+  color: white;
+  background-color: #F55B37;
+  margin-left: 1300px;
+  margin-top: 30px;
+  border: solid 2px #F55B37;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px 1px #dadce0
+}
+
+.menu {
+  text-align: center;
+}
+
+.card {
+  width: 700px;
+  height: 60px;
+  font-size: 30px;
+  margin-bottom: 30px;
+  background-color: #E4FCFF;
+  border: solid 3px #078C8E;
+  border-radius: 7px;
+}
+
+.card:hover {
+  background-color: #A9D5E8
+}

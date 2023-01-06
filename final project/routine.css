@@ -1,0 +1,130 @@
+@charset "EUC-KR";
+
+html {
+  background-color: #FFF6BF;
+  font-family: 'Gowun Dodum', sans-serif;
+}
+
+.header {
+  background-color: #FFEBAD;
+}
+
+.home {
+  background-image: url("img/home.png");
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  border: none;
+  background-color: #FFEBAD;
+}
+
+.menu {
+  background-image: url("img/menu.png");
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  border: none;
+  background-color: #FFEBAD;
+  margin-left: 10px;
+}
+
+.music {
+  background-image: url("img/music.png");
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  border: none;
+  background-color: #FFEBAD;
+}
+
+.getLink {
+  display: none;
+  background-color: #ABD9FF;
+  width: 350px;
+  height: 70px;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+  z-index: 100;
+}
+
+.getLink input {
+  width: 200px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border: 1px dashed #FFCB42;
+  border-radius: 15px;
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+.getLink .okBtn {
+  background-color: #81C6E8;
+  margin-top: 20px;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+}
+
+.tab {
+  float: right;
+}
+
+.tab1 {
+  height: 32px;
+  margin-top: 10px;
+  border: 2px solid #E5CB9F;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: none;
+  background-color: white;
+  font-size: 18px;
+  font-family: 'Gowun Dodum', sans-serif;
+}
+
+.container {
+	background-color: #FFEBAD;
+	text-align: center;
+	width: 800px;
+	height: 200px;
+	border: none;
+	border-radius: 10px;
+	margin-left: 500px;
+	margin-top: 200px;
+}
+
+input {
+	font-size: 20px;
+	padding-right: 5px;
+}
+
+.submit {
+  margin-top: 20px;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: #ABD9FF;
+}
+
+.container1 {
+	background-color: #FFEBAD;
+	text-align: center;
+	width: 800px;
+	height: 300px;
+	border: none;
+	border-radius: 10px;
+	margin-left: 500px;
+	margin-top: 50px;
+}
+
+ul {
+	font-size: 30px;
+}
+
+iframe {
+  width: 300px;
+  height: 100px;
+}

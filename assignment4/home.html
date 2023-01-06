@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>LOGIN</title>
+    <script src="jquery-3.6.1.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="./home.css">
+  </head>
+  <body>
+    <div class="main">
+      <div class="finalTab" id="finalTab">
+        You are logged in.
+      </div>
+      <div class="buttons" id="buttons">
+        <button type="button" id="login" class="login">Login</button>
+        <button type="button" id="sign" class="sign">Sign up</button>
+      </div>
+      <div class="loginTab" id="loginTab">
+        <div class="content">
+          <br>
+          <h1>Login</h1>
+          <h2 id="message">Enter user name and password: </h2>
+          <h2>Email</h2>
+          <input type="text" name="email" placeholder="Email" id="email">
+          <h3 class="valid1" id="valid1">Your email address is invalid!</h3>
+          <h2>Password</h2>
+          <input type="password" name="pw" placeholder="Password" id="pw">
+          <h3 class="eCheck1" id="eCheck1">Please enter your password!</h3>
+          <button type="button" id="loginBtn" class="loginBtn">Login</button>
+        </div>
+      </div>
+      <div class="signTab" id="signTab">
+        <div class="content">
+          <br>
+          <h1>Sign up</h1>
+          <h2>Fill in the form: </h2>
+          <h2>First name</h2>
+          <input type="text" name="first" placeholder="First name">
+          <h3 class="eFirst" id="eFirst">Please enter your first name!</h3>
+          <h3 class="eNumber1" id="eNumber1">First name cannot contain numbers!</h3>
+          <h3 class="eNumber3" id="eNumber3">The first letter of the first name should be capital letter!</h3>
+          <h2>Last name</h2>
+          <input type="text" name="last" placeholder="Last name">
+          <h3 class="eLast" id="eLast">Please enter your last name!</h3>
+          <h3 class="eNumber2" id="eNumber2">Last name cannot contain numbers!</h3>
+          <h3 class="eNumber4" id="eNumber4">The first letter of the last name should be capital letter!</h3>
+          <form>
+            <input type="radio" name="male" value="male" class="radio1">Male
+            <input type="radio" name="female" value="female" class="radio2">Female
+            <img src="check.png" id="checkImg">
+          </form>
+          <h3 class="eGender" id="eGender">Please select your gender!</h3>
+          <h2>Email</h2>
+          <input type="text" name="email1" placeholder="Email">
+          <h3 class="eEmail" id="eEmail">Please enter your email!</h3>
+          <h3 class="valid" id="valid">Your email address is invalid!</h3>
+          <h2>Password</h2>
+          <input type="password" name="pw1" placeholder="Password">
+          <h3 class="ePw" id="ePw">Please enter your password!</h3>
+          <h3 class="wrong" id="wrong">Requirement: at least 6 characters, one capital letter, one lowercase letter, al least one digit and one special character!</h3>
+          <h2>Confirm password</h2>
+          <input type="password" name="check" placeholder="Confirm password">
+          <h3 class="eCheck" id="eCheck">Please re-enter your password!</h3>
+          <h3 class="dif" id="dif">Password does not match!</h3>
+          <button type="button" id="signBtn" class="signBtn">Sign up</button>
+        </div>
+      </div>
+      <div class="upTab" id="upTab">
+        <h1>You are signed up.</h1>
+      </div>
+    </div>
+  </body>
+  <script src="./home.js" charset="utf-8"></script>
+</html>

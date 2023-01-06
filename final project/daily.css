@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+html {
+  background-color: #FFF6BF;
+  font-family: 'Gowun Dodum', sans-serif;
+}
+
+.header {
+  background-color: #FFEBAD;
+}
+
+.home {
+  background-image: url("img/home.png");
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  border: none;
+  background-color: #FFEBAD;
+}
+
+.menu {
+  background-image: url("img/menu.png");
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  border: none;
+  background-color: #FFEBAD;
+  margin-left: 10px;
+}
+
+.music {
+  background-image: url("img/music.png");
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  border: none;
+  background-color: #FFEBAD;
+}
+
+.getLink {
+  display: none;
+  background-color: #ABD9FF;
+  width: 350px;
+  height: 70px;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+  z-index: 100;
+}
+
+.getLink input {
+  width: 200px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border: 1px dashed #FFCB42;
+  border-radius: 15px;
+  padding-left: 10px;
+  margin-bottom: -1500px;
+}
+
+.getLink .okBtn {
+  background-color: #81C6E8;
+  margin-left: 230px;
+  margin-top: -500px;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+}
+
+.tab {
+  float: right;
+}
+
+.tab1 {
+  height: 32px;
+  margin-top: 10px;
+  border: 2px solid #E5CB9F;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: none;
+  background-color: white;
+  font-size: 18px;
+  font-family: 'Gowun Dodum', sans-serif;
+}
+
+.canvas {
+  width: 800px;
+  height: 600px;
+  background-color: white;
+  border-radius: 15px;
+  margin-left: 80px;
+  margin-top: 150px;
+}
+
+.canvasContianer {
+  display: grid;
+  grid-column: auto;
+  grid-row: auto;
+}
+
+.container {
+  display: inline-flex;
+  margin-left: 40px;
+}
+
+.daily {
+  background-color: #C3F8FF;
+  margin-left: 100px;
+  width: 800px;
+  height: 700px;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+.dairyContainer {
+  display: grid;
+  grid-column: auto;
+  grid-row: auto;
+}
+
+.inputContainer {
+  margin-top: 50px;
+  margin-left: 130px;
+}
+
+input {
+  width: 600px;
+  height: 30px;
+  padding-left: 10px;
+  border: 1px dashed #FFEBAD;
+  border-radius: 10px;
+}
+
+.okBtn {
+  background-color: #ABD9FF;
+  margin-left: 30px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.daily h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.daily h2 {
+  font-size: 25px;
+}
+
+.erase {
+  position: relative;
+  z-index: 10;
+  background-color: #ABD9FF;
+  margin-left: 400px;
+  margin-top: 25px;
+  width: 150px;
+  height: 60px;
+  font-size: 25px;
+  border: none;
+  border-radius: 10px;
+}
+
+iframe {
+  width: 300px;
+  height: 100px;
+}

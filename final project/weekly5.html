@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>DIARY</title>
+    <link rel="stylesheet" href="weekly.css">
+  </head>
+  <body>
+    <div class="header">
+      <button class="home"id="home" onclick="location.href = 'index.jsp'"></button>
+      <button class="menu" id="menu" onclick="location.href = 'index1.html'"></button>
+      <button class="music" id="music"></button>
+      <div class="tab">
+        <button class="tab1" id="todo" onclick="location.href = 'todo.html'">TO DO LIST</button>
+        <button class="tab1" id="monthly" onclick="location.href = 'monthly.html'">MONTHLY</button>
+        <button class="tab1" id="weekly1" onclick="location.href = 'weekly1.html'">1st WEEK</button>
+        <button class="tab1" id="weekly2" onclick="location.href = 'weekly2.html'">2nd WEEK</button>
+        <button class="tab1" id="weekly3" onclick="location.href = 'weekly3.html'">3rd WEEK</button>
+        <button class="tab1" id="weekly4" onclick="location.href = 'weekly4.html'">4th WEEK</button>
+        <button class="tab1">5th WEEK</button>
+        <button class="tab1" id="daily" onclick="location.href = 'daily.html'">DAILY</button>
+        <button class="tab1" id="memo" onclick="location.href = 'memo.html'">MEMO</button>
+        <button class="tab1" id="routine" onclick="location.href = 'routine.jsp'">ROUTINE</button>
+      </div>
+    </div><br>
+    <div class="getLink" id="getLink">
+      <input type="text" name="link" id="link" placeholder="Enter your youtube html link">
+      <button class="okBtn" id="okBtn1">OK</button>
+    </div>
+    <div id="newArea"></div>
+    <div class="weekly" id="weekly">
+      <div class="box1">
+        <div class="setting">
+          <h1>Add Schedule</h1>
+          <div class="container">
+            <h2>Date: </h2>
+            <input type="text" name="date" id="date" placeholder="ex: MON">
+          </div>
+          <div class="container">
+            <h2>Content: </h2>
+            <input type="text" name="content" id="content" placeholder="ex: Meeting">
+          </div>
+          <button class="okBtn" id="okBtn">Ok</button>
+        </div>
+      </div>
+      <div class="box"><h1>MON</h1><h2 id="h1"></h2></div>
+      <div class="box"><h1>TUE</h1><h2 id="h2"></h2></div>
+      <div class="box"><h1>WED</h1><h2 id="h3"></h2></div>
+      <div class="box"><h1>THU</h1><h2 id="h4"></h2></div>
+      <div class="box"><h1>FRI</h1><h2 id="h5"></h2></div>
+      <div class="box"><h1>SAT</h1><h2 id="h6"></h2></div>
+      <div class="box"><h1>SUN</h1><h2 id="h7"></h2></div>
+    </div>
+  </body>
+  <script src="weekly5.js" charset="utf-8"></script>
+</html>

@@ -1,0 +1,88 @@
+html {
+  background-color: #E5FFFF;
+}
+
+.progress {
+  margin-left: -570px;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.score {
+  margin-left: 650px;
+  text-align: center;
+  margin-top: -90px;
+}
+
+h1 {
+  font-size: 15px;
+  font-color: black;
+}
+
+h2 {
+  font-size: 35px;
+  color: #009688;
+  text-align: center;
+}
+
+.scorevalue {
+  margin-top: -10px;
+}
+
+progress {
+  border: 2px solid #009688;
+  border-radius: 20px;
+  width: 130px;
+  height: 30px;
+  appearance: none;
+}
+
+progress::-webkit-progress-bar {
+  background: #E5FFFF;
+  border-radius: 20px;
+}
+
+progress::-webkit-progress-value {
+  background: #009688;
+  border-radius: 20px;
+}
+
+.question {
+  margin-top: 50px;
+}
+
+.buttonp {
+  position: relative;
+  margin-left: 600px;
+  margin-bottom: 7px;
+  border-radius: 10px;
+  width: 700px;
+}
+
+.buttonc {
+  position: absolute;
+}
+
+.buttonp:hover {
+  margin-top: -2px;
+  box-shadow: 1px 1px 7px #009688;
+}
+
+.btn {
+  background-color: #009688;
+  color: white;
+  width: 50px;
+  height: 40px;
+  border: 2px solid #009688;
+  border-radius: 10px;
+}
+
+.ansbtn {
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 700px;
+  height: 40px;
+}

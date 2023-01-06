@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SKKU ATM</title>
+    <link rel="stylesheet" href="./transfer.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="container1">
+        <h1>From</h1>
+        <select class="from" id="from">
+          <option value="none" selected disabled hidden>Choose an Account</option>
+          <option value="1234567890123456">1234567890123456</option>
+        </select>
+      </div>
+      <div class="container2">
+        <input type="text" placeholder="$0000.00" id="display">
+        <div>
+          <div class="cards">
+            <button type="button" class="btn" id="btn1">1</button>
+            <button type="button" class="btn" id="btn2">2</button>
+            <button type="button" class="btn" id="btn3">3</button>
+            <button type="button" class="btn" id="btn4">4</button>
+            <button type="button" class="btn" id="btn5">5</button>
+            <button type="button" class="btn" id="btn6">6</button>
+            <button type="button" class="btn" id="btn7">7</button>
+            <button type="button" class="btn" id="btn8">8</button>
+            <button type="button" class="btn" id="btn9">9</button>
+            <button type="button" class="btn" id="btn0">0</button>
+            <button type="button" class="btn" id="dotBtn">.</button>
+            <button type="button" class="delBtn" id="delBtn">Del</button>
+          </div>
+          <button type="button" class="enterBtn" id="enterBtn">Enter</button>
+        </div>
+      </div>
+      <div class="container3">
+        <h1 class='totitle'>To</h1>
+        <select class="to" id="to">
+          <option value="none" selected disabled hidden>Choose an Acocunt</option>
+          <option value="1234567887654321">1234567887654321</option>
+        </select>
+      </div>
+    </div>
+    <button type="button" class="return" id="return">Back</button>
+  </body>
+  <script src="./transfer.js" charset="utf-8"></script>
+</html>
